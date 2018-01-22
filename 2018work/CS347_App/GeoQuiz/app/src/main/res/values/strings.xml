@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">GeoQuiz</string>
-    <string name="question_text">Question Text</string>
-    <string name="true_but">True_Button</string>
-    <string name="BFalse">False</string>
-    <string name="BTrue">True</string>
+    <string name="app_name">A Strange Turn of Events</string>
+    <string name="question_text">The layout of this example has been altered</string>
+    <string name="true_but">Indeed</string>
+    <string name="BFalse">Good Heavens</string>
+    <string name="BTrue">Indeed</string>
 </resources>

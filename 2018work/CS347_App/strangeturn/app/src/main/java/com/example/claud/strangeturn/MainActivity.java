@@ -1,4 +1,4 @@
-package com.example.claud.geoquiz;
+package com.example.claud.strangeturn;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,15 +25,15 @@ public class MainActivity extends AppCompatActivity {
         //add listener
         mTrueButton.setOnClickListener(new View.OnClickListener(){
 
-            @Override
-            public void onClick(View v){
-                //Context is a class
+               @Override
+               public void onClick(View v){
+                   //Context is a class
 
-                Toast customT = Toast.makeText(MainActivity.this, "True.2 clicked", Toast.LENGTH_LONG);
-                customT.setGravity(Gravity.CENTER, 0,0);
-                customT.show();
-                }
-            }
+                   Toast customT = Toast.makeText(MainActivity.this, "A resounding success!!!", Toast.LENGTH_LONG);
+                   customT.setGravity(Gravity.TOP, 0,0);
+                   customT.show();
+               }
+           }
         );
         mFalseButton = (Button)findViewById(R.id.fbutton);
 
@@ -41,7 +41,9 @@ public class MainActivity extends AppCompatActivity {
 
     //linked to thing we created
     public void onFalseClick(View v){
-        Toast.makeText(this, "False was tapped", Toast.LENGTH_SHORT).show();
+        Toast customT = Toast.makeText(MainActivity.this, "By Jove!!!", Toast.LENGTH_LONG);
+        customT.setGravity(Gravity.TOP, 0,0);
+        customT.show();
     }
 
 }

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="bottom|center"
     android:orientation="vertical"
-    tools:context="com.example.claud.geoquiz.MainActivity">
+    tools:context="com.example.claud.strangeturn.MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
